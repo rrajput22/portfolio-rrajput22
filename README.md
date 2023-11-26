@@ -10,7 +10,7 @@ You will need to keep track of which player's turn it is. As in standard chess, 
 
 Locations on the board will be specified using "algebraic notation", with columns labeled a-h and rows labeled 1-8, as shown in this diagram:
 
-![starting position for game](starting_position.png "starting position for game")
+![starting_position for game](https://github.com/rrajput22/portfolio-rrajput22/assets/102693224/95ee80f2-3d16-4770-98d4-f8c63ed0d934)
 
 You're not required to have a function that prints the board, but you will probably find it very useful for testing purposes.
 
