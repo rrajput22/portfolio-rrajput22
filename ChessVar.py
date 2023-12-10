@@ -94,7 +94,7 @@ class ChessVar:
 
         # Check for captured pieces and update game state
         captured_player = 'BLACK' if self.current_player == 'WHITE' else 'WHITE'
-        self.check_winner(captured_player, end_row, end_col)
+        self.update_game_state(captured_player, end_row, end_col)
 
         # Switch player turn
         self.current_player = 'BLACK' if self.current_player == 'WHITE' else 'WHITE'
